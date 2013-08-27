@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<customer_account_create>
+        <reference name="customer_form_register">
+            <action method="setTemplate"><template>mobweb/customsignupfield/persistent/customer/form/register.phtml</template></action>
+        </reference>
+    </customer_account_create>
+</layout>

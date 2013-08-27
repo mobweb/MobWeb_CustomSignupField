@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_CustomSignupField>
+            <version>0.1.0</version>
+        </MobWeb_CustomSignupField>
+    </modules>
+    <global>
+    	<resources>
+    		<customsignupfield_setup>
+    			<setup>
+    				<module>MobWeb_CustomSignupField</module>
+    				<class>Mage_Customer_Model_Entity_Setup</class>
+    			</setup>
+    		</customsignupfield_setup>
+    	</resources>
+    </global>
+    <frontend>
+    	<layout>
+    		<updates>
+    			<MobWeb_CustomSignupField>
+    				<file>MobWeb_CustomSignupField.xml</file>
+    			</MobWeb_CustomSignupField>
+    		</updates>
+    	</layout>
+    </frontend>
+</config>

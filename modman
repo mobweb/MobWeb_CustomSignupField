@@ -1,0 +1,10 @@
+app/etc/modules/MobWeb_CustomSignupField.xml app/etc/modules/MobWeb_CustomSignupField.xml
+
+app/code/local/MobWeb/CustomSignupField app/code/local/MobWeb/CustomSignupField/
+
+app/design/frontend/base/default/template/mobweb/customsignupfield app/design/frontend/base/default/template/mobweb/customsignupfield/
+
+app/design/frontend/base/default/layout/MobWeb_CustomSignupField.xml app/design/frontend/base/default/layout/MobWeb_CustomSignupField.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
